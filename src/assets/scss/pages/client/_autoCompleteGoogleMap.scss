@@ -1,0 +1,33 @@
+.pac-target-input{
+        padding: 13px 20px;
+        border-radius: 0 !important;
+        color: #353535 !important;
+        caret-color: #000 !important;
+        font-weight: 500;
+        font-size: 14px;
+        border: 1px solid #33373A;
+        border-color: #c5c5c5;
+        display: block;
+        width: 100%;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        background-color: #fff;
+        line-height: 1.5;
+        height: 78px !important;
+        &:focus {
+            border-color: #33373A !important;
+            outline: 0;
+            box-shadow: none;
+        }
+        @media screen and (max-width: 1920px){
+            height: 58px !important;
+        }
+        
+    }
+
+
+// body .pac-container{
+//     top: 0px !important;
+// }
+.bounds{
+    background-color: red;
+}

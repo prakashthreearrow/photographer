@@ -1,0 +1,16 @@
+.custom-height-multisearch-select{
+    height: 100px;
+    .abs-custom{
+        position:absolute !important;
+        z-index: 1;
+        left: 34px;
+        top: 11px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #91908E;
+    }
+}
+.invalid{
+    text-align: left;
+}

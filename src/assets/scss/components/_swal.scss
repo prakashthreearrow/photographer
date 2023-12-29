@@ -1,0 +1,27 @@
+.swal-button{
+  background-color: #ff7330;
+  &:hover,&:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+}
+.swal-button--cancel{
+
+}
+button.swal-button.swal-button--confirm{
+  &:hover{
+    background-color: #fff !important;
+    color: #000;
+  }
+}
+.swal-button--cancel{
+  color: white;
+  background-color: gray;
+}
+.swal-footer{
+  text-align: center;
+}
+.swal-overlay{
+  z-index: 10000000;
+}

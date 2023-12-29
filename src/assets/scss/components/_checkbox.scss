@@ -1,0 +1,53 @@
+/* Custom Checkbox */
+input[type = 'checkbox'] {
+    height: 25px;
+    width: 25px;
+    padding: 8.12px 6.87px;
+    min-width: 15px;
+    min-height: 15px;
+    margin-top: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid #FF7330;
+    border-radius: 50%;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+    // margin-right: 15px;
+  }
+  input[type = 'radio'] {
+    margin-right: 10px;
+  }
+
+  input[type = 'checkbox']:checked {
+    background-color: $color-orange;
+    position: relative;
+  }
+
+  input[type = 'checkbox']:checked::after {
+    // content: '\2713';
+    content: " ";
+    background-image: url("../../images/true-tick.png");
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 0.01em;
+    height: 20px;
+    width: 20px;
+    background-size: 19px;
+    background-position: center;
+  }
+  
+  input[type = 'checkbox']:active {
+    border: 1px solid $color-orange;
+  }
+  
+  input[type = 'checkbox']:disabled {
+    border: 1px solid $Disable-gray;
+    background-color: $Disable-gray;
+    position: relative;
+  }

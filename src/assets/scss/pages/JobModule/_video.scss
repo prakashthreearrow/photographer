@@ -1,0 +1,37 @@
+.media-one{
+    .video-react-big-play-button{
+        visibility: hidden;
+        cursor: pointer !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        border: 0 !important;
+        background-color: transparent !important;
+        background: transparent !important;
+    }
+    &:hover{
+        .video-react-big-play-button{
+            visibility: visible;
+            z-index: 3;
+        }
+    }
+    &:hover{
+        .video-react {
+            &.video-react-has-started{
+                &.video-react-paused {
+                    .video-react-big-play-button.big-play-button-hide {
+                        display: block;
+                    }
+                }
+            }   
+        }
+    }
+}
+.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+    height: 100% !important;
+    padding-top: 56.25% !important;
+}
+
+.media-one.marker-one::after{
+    display: none;
+}

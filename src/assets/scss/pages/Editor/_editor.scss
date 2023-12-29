@@ -1,0 +1,28 @@
+.signupnext-padding.signupnext-padding-one{
+    .custom-placeholder-role{
+        &::after{
+            top: 10px;
+            @media screen and (max-width: 1920px){
+                top: 4px;
+            }
+            @media screen and (max-width: 500px){
+                top: 5px;
+            }
+            @media screen and (max-width: 306px){
+                font-size: 9px;
+                top: 3px;
+            }
+        }
+ 
+    }
+    .custom-placeholder2{
+        &:after {
+         left: 20px;
+            @media screen and (max-width:306px){
+                top: 3px;
+                left: 2px;
+                font-size: 9px;
+            }
+         }
+     }
+}

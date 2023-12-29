@@ -1,0 +1,107 @@
+.footer{
+    // margin-top: 1rem;
+    padding-top: 17px;
+    .footer-center-content {
+        .text-center{
+            img{
+                height: 25px;}
+        }
+    }
+    
+   
+    h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14.5px;
+        text-align: center;
+        color: #91908E;
+        letter-spacing: 1.65px;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    h3{
+       font-family: 'Circular Std';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 12px;
+       line-height: 15px;
+       text-align: center;
+       letter-spacing: 0.065em;
+       text-transform: uppercase;
+       color: #FF7330;
+    }
+    .signUp_footer{text-align: right;}
+
+    .footer-copy-right{
+        font-family: 'Cabin', sans-serif;
+        font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18.2px;
+      margin: 0;
+      text-align: center;
+      text-transform: capitalize;
+      color: #91908E;
+
+    }
+    ul {
+        list-style-type: none;
+      }
+    @media (max-width:991px) {
+        padding-bottom: 17px;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .footer{
+        .signUp_footer{text-align: center;
+            ul{padding-left: 0;
+                li{
+                    img{
+                        padding-left: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+.header-design{
+     
+    h4{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.065em;
+        color: #91908E;
+    }
+
+    h3{
+       font-family: 'Circular Std';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 12px;
+       line-height: 15px;
+       text-align: center;
+       letter-spacing: 0.065em;
+       text-transform: uppercase;
+       color: #FF7330;
+    }
+    .signUp_footer{text-align: right;}
+
+    .footer-copy-right{
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 151.9%;
+      /* or 18px */
+      text-align: center;
+      text-transform: capitalize;
+      color: #91908E;
+    }
+}

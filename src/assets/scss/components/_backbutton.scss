@@ -1,0 +1,13 @@
+.back-btn {
+  display: flex;
+  //   justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(53, 53, 53, 0.5);
+  cursor: pointer;
+
+  span {
+    margin-left: 10px;
+  }
+}

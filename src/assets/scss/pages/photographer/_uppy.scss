@@ -1,0 +1,639 @@
+body .uppy-Dashboard-AddFiles{
+    height: 100% !important;
+        margin: 0 !important;
+        border: 0 !important;
+        // @media only screen and (max-width: 555px) {
+        //     margin: 114px 0 0 !important;
+        // }
+}
+body .uppy-size--md .uppy-Dashboard-inner{
+    
+}
+body .uppy-Dashboard-inner{
+    width: 585px !important;
+    margin: 50px auto 0;
+    border-radius: 12px;
+    height: 371px !important;
+    border-width: 3px;
+    border-color: #FF7330;
+    background-color: #fff;
+    border-radius: 12px;
+    @media only screen and (max-width: 575px) {
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px;
+    }
+    
+}
+body .uppy-Dashboard-AddFiles-info{
+    position: relative  !important;
+    bottom: unset !important;
+    top: unset !important;
+    padding-top: unset !important;
+    display: block !important;
+}
+a.uppy-Dashboard-poweredBy{
+    font-size: 12px !important;
+    line-height: 15px !important;
+    color: #353535 !important;
+    font-family: 'Circular Std';
+    letter-spacing: 1.65px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+}
+
+body .uppy-Dashboard-AddFiles-title{
+    display: flex;
+    flex-direction: column;
+    // gap: 10px;
+    position: relative;
+    &::before{
+        content: ' ';
+        background-image: url('../../../images/upload-icon-one.png');
+        width: 83.69px;
+    background-repeat: no-repeat;
+    height: 85px;
+    top: -104px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+            color: #353535;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    }
+}
+body .uppy-Dashboard-innerWrap{
+    border-radius: 12px;
+}
+body .uppy-Dashboard-dropFilesHereHint{
+    padding-top: 115px;
+    background-image: url('../../../images/2up-arrow.gif');
+    background-repeat: no-repeat;
+    background-color: #EEECE8;
+    background-size: 90px;
+    color: #353535;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 12px;
+}
+body .uppy-Dashboard-AddFiles-title button:first-child{
+    color: #353535;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.78px;
+    font-family: 'Circular Std';
+    @media (max-width:767px) {
+        white-space: pre-wrap;
+    }
+}
+.uppy-size--md .uppy-Dashboard-Item-previewInnerWrap{
+    background-color: #eeece8 !important;
+}
+body .uppy-size--md .uppy-DashboardContent-back{
+    color: #DA4167 !important;
+}
+body .uppy-size--md .uppy-DashboardContent-back,body .uppy-size--md .uppy-DashboardContent-save,body .uppy-size--md .uppy-DashboardContent-addMore{
+    font-size: 14px;
+    line-height: 17.71px;
+    font-family: 'Circular Std';
+    font-weight: 500;
+}
+body .uppy-size--md .uppy-DashboardContent-bar {
+    height: 48px;
+    background-color: #fff;
+    border-color:  #eaeaea;
+    .uppy-DashboardContent-title{
+        font-size: 14px;
+        line-height: 45px;
+        font-weight: 500;
+        color: #353535;
+    }
+}
+.uppy-StatusBar-spinner,.uppy-Dashboard-Item-previewIcon,.uppy-DashboardContent-addMore,.uppy-DashboardContent-back,.uppy-Dashboard-Item-action--remove{
+    color: #FF7330 !important;
+    box-shadow: unset !important;
+}
+.uppy-StatusBar-spinner{
+    fill: #FF7330 !important;
+    
+}
+.uppy-Dashboard-Item-previewIcon{
+    path{
+        fill: #FF7330 !important;
+    }
+}
+.uppy-StatusBar-actions{
+    .uppy-StatusBar-actionBtn{
+        background-color: #FF7330 !important;
+        color: #fff !important;
+    }
+}
+.uppy-StatusBar-progress{
+    background-color: #77DD76 !important;
+}
+body .uppy-Dashboard-browse:hover,body .uppy-Dashboard-browse:focus{
+    border-bottom: 0 !important;
+}
+.uppy-Dashboard-inner{
+        .uppy-DashboardTab-name,.uppy-Dashboard-AddFiles-title{
+            font-size: 14px !important;
+            line-height: 22.77px;
+            color: #91908E;
+            font-weight: 400;
+            font-family: 'Circular Std';
+            button{
+                color: #ff7330;
+                &:hover{
+                    border: 0 !important;
+                    border-bottom: 0 !important;
+                }
+                
+            }
+        }
+        .uppy-Dashboard-AddFiles-list{
+            button{
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            svg{
+                height: 40px !important;
+                width: 40px !important;
+            }
+            rect{
+                fill: #FF7330;
+            }
+        }
+    }
+    body .uppy-Dashboard-AddFiles-list,body .uppy-size--md .uppy-Dashboard-AddFiles-list{
+        display: none !important;
+    }
+
+    .uppy-Dashboard-AddFiles-title{
+    margin: 0 !important;
+    max-width: initial !important;
+    padding: 0 20px 45px !important;
+    margin-top: 146px !important;
+    @media(max-width:575px){
+        padding: 0 0px 25px !important;
+        margin-top: 126px !important;
+    }
+}
+body .uppy-Dashboard-AddFiles-title button:last-child{
+    padding-top: 3px !important;
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff7330;
+    border-radius: 32.5px;
+    // width: 181px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Circular Std';
+    display: inline-flex;
+    margin: auto;
+    letter-spacing: 0.065em;
+    margin-bottom: 10px;
+}
+.uppy-Informer-animated p{
+    background-color: #eeece8 !important;
+    color: #ff7330 !important;
+}
+.uppy-Dashboard-progressindicators .uppy-Informer{
+    bottom: 39px !important;
+}
+
+
+
+// body .uppy-Dashboard-AddFiles,.uppy-Dashboard-inner{
+//     border-color:#353535 !important;
+// }
+// .uppy-Dashboard-dropFilesHereHint,body .uppy-size--md .uppy-Dashboard-AddFiles-title{
+//     font-size: 25px !important;
+// }
+// .uppy-Dashboard-dropFilesHereHint{
+//     position: relative;
+//     &::after{
+//         position: absolute;
+//         background-color: #FF7330;
+//         opacity: 0.2;
+//         border: 1px solid #FF7330;
+//         height: 100%;
+//         width: 100%;
+//         top: 0;
+//         content: " ";
+//     }
+// }
+// body .uppy-size--md .uppy-Dashboard-AddFiles-title {
+//     max-width: 620px;
+// }
+
+body .uppy-Dashboard-files .uppy-Dashboard-Item{
+    width: 100%;
+    display: flex;
+    float: unset !important;
+    flex-wrap: wrap;
+    background: #EEECE8;
+    height: 60px;
+    padding: 12px 13px;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 15px 8px;
+    position: relative;
+    justify-content: space-between;
+}
+.uppy-Dashboard-files .uppy-Dashboard-Item .uppy-Dashboard-Item-preview{
+    width: 25.27px !important;
+    height: 32.91px !important;
+    position: unset;
+    .uppy-u-reset{
+        position: absolute;
+        right: 66px;
+        height: 35px;
+        width: 35px;
+        top: -16px;
+        // pointer-events: none;
+        h6{
+            color: #353535;
+            position: absolute;
+            top: 12px;
+            margin: 0;
+            font-size: 10px;
+            font-family: 'Circular Std';
+            line-height: 12.65px;
+            font-weight: 500;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+    }
+}
+body .uppy-Dashboard-Item-progress{
+    width: 100%;
+}
+body .uppy-StatusBar-actionCircleBtn{
+    height: 24.43px;
+    width: 24.43px;
+    margin: 0;
+    &:first-child{
+        margin-right: 8.14px;
+        svg{
+            circle{
+                fill: #91908E;
+            }
+        }
+    }
+    svg{
+        height: 100%;
+        width: 100%;
+        circle{
+            fill: #DA4167;
+        }
+    }
+}
+body .uppy-size--md .uppy-Dashboard-files{
+    padding-top: 0;
+}
+body .uppy-StatusBar-statusSecondary,body .uppy-Dashboard-files .uppy-Dashboard-Item.is-error .uppy-u-reset.uppy-Dashboard-Item-action--remove,body .uppy-StatusBar-content .uppy-StatusBar-statusIndicator.uppy-c-icon,body .uppy-StatusBar-actionBtn--retry,body .uppy-StatusBar-spinner{
+    display: none;
+}
+body .uppy-Dashboard-Item-fileName .uppy-u-reset.uppy-Dashboard-Item-errorDetails{
+    display: none !important;
+}
+body .uppy-Dashboard-Item-previewInnerWrap::after{
+    background: transparent;
+}
+body .uppy-size--md .uppy-Dashboard-Item-previewIcon{
+    height: 100%;
+    width: 100%;
+}
+body .uppy-Dashboard-Item-previewIconWrap{
+    height: 32.91px;
+    max-height: initial;
+    width: 25.27px;
+}
+body .uppy-Dashboard-files {
+    padding-top: 0;
+    width: 98%;
+    margin: 15px 0;
+    overflow-x: hidden;
+    &::-webkit-scrollbar-thumb {
+        border-radius: 24px;
+    }
+    &::-webkit-scrollbar-track{
+        border-radius: 24px;
+    }
+    .uppy-Dashboard-Item.is-inprogress{
+        margin-top: 30px;
+        &::before{
+            content: 'Uploading';
+            width: 97%;
+            height: 20px;
+            position: absolute;
+            top: -24px;
+            font-size: 14px;
+            left: 0;
+            line-height: 17.71px;
+            font-weight: 500;
+            color: #353535;
+        }
+    }
+    .uppy-Dashboard-Item.is-complete{
+        margin-top: 30px;
+        &::before{
+            content: 'Uploaded';
+            width: 97%;
+            height: 20px;
+            position: absolute;
+            top: -24px;
+            font-size: 14px;
+            left: 0;
+            line-height: 17.71px;
+            font-weight: 500;
+            color: #353535;
+        }
+    }
+    body .uppy-Dashboard-Item.is-error{
+        .uppy-Dashboard-Item-errorDetails,.uppy-Dashboard-Item-actionWrapper{
+            display: none;
+        }
+    } 
+    .uppy-Dashboard-Item.is-error{
+        margin-top: 30px;
+        // .uppy-Dashboard-Item-progress{
+        //     .uppy-Dashboard-Item-errorDetails{
+        //         display: none;
+        //     }
+        // }
+        &::before{
+            content: 'Uploading';
+            width: 97%;
+            height: 20px;
+            position: absolute;
+            top: -24px;
+            font-size: 14px;
+            left: 0;
+            line-height: 17.71px;
+            font-weight: 500;
+            color: #353535;
+        }
+        .uppy-u-reset{
+            background: #fff;
+            position: absolute;
+            right: 27px;
+            display: flex;
+            width: 89px;
+            height: 30px;
+            border-radius: 4px;
+            padding: 7px;
+            top: -13px;
+            opacity: 1;
+            svg{
+                fill: #353535;
+                height: 16px;
+                width: 13px;
+            }
+            &::after{
+                content: 'Try again';
+                position: absolute;
+                width: 67px;
+                height: 18px;
+                right: -4px;
+                top: 8px;
+                font-size: 14px;
+                line-height: 17.71px;
+                font-family: 'Circular Std';
+                color: #353535;
+            }
+        }
+    }
+}
+.uppy-Dashboard-files .uppy-Dashboard-Item .uppy-Dashboard-Item-fileInfoAndButtons{
+    width: calc(100% - 38px);
+    flex-grow: unset;
+    padding-top: 0;
+    padding-left: 0 !important;
+    .uppy-Dashboard-Item-statusSize{
+        margin-bottom: 0;
+    }
+    .uppy-Dashboard-Item-fileInfo{
+        padding-right: 0;
+        .uppy-Dashboard-Item-fileName{
+            width: 78%;
+        }
+        .uppy-Dashboard-Item-name{
+            font-size: 14px;
+            line-height: 17.71px;
+            color: #353535;
+        }
+        .uppy-Dashboard-Item-statusSize{
+            font-size: 12px;
+            line-height: 15.18px;
+            font-weight: 700;
+            color: #91908E;
+            font-family: 'Circular Std';
+        }
+    }
+}
+
+.uppy-StatusBar::before{
+    background-color: #EEECE8 !important;
+}
+body .uppy-StatusBar.is-waiting .uppy-StatusBar-actions{
+    background-color: #fff;
+}
+
+.uppy-Dashboard-Item-actionWrapper .uppy-Dashboard-Item-action--remove{
+    visibility: hidden;
+    top: 4px !important;
+    right: 15px !important;
+    height: 30px !important;
+    width: 30px !important;
+    margin-left: unset !important;
+    padding: unset !important;
+    svg{
+        width: 100%;
+        height: 100%;
+    }
+}
+.uppy-Dashboard-Item-progressIcon--progress,.uppy-Dashboard-Item-progressIcon--play{
+    fill: transparent;
+    stroke: #1f1f1f;
+}
+body .uppy-Dashboard-Item-progressIcon--bg{
+    stroke: #91908E;
+    stroke-width: 1px;
+}
+.uppy-Dashboard-Item-progressIcon--progress{
+    stroke: #FF7330 !important;
+    // fill: #FF7330 !important;
+}
+.uppy-Dashboard-Item-progressIcon--pause,.uppy-Dashboard-Item-progressIcon--play{
+    fill: #FF7330 !important;
+    stroke: #FF7330 !important;
+}
+// body .uppy-StatusBar{
+//     height: 55px;
+//     width: 585px !important;
+//     margin: auto;
+//     background-color: transparent;
+// }
+body .statusbar-one{
+    .uppy-StatusBar{
+        background-color: transparent;
+        &::before{
+            background-color: transparent !important;
+        }
+        .uppy-StatusBar-progress{
+            display: none;
+        }
+        .uppy-StatusBar-statusPrimary{
+            padding-left: 55px;
+            &::before{
+                content: 'Overall';
+            }
+        }
+        // .uppy-StatusBar-content{
+        //     padding-left: 48px;
+        //     &::before{
+        //         content: 'Overall';
+        //         position: absolute;
+        //         left: 0;
+        //         width: 120px;
+        //         font-size: 14px;
+        //         line-height: 17.71px;
+        //         color: #353535;
+        //         font-weight: 500;
+        //     }
+        // }
+    }
+}
+// body .uppy-Dashboard-Item-preview{
+//     position: unset;
+// }
+// body .uppy-Dashboard-Item-progress{
+//     text-align: right ;
+//     right: 0;
+//     left: unset;
+// }
+// body .uppy-size--md .uppy-Dashboard-Item-progressIndicator{
+//     width: 25px !important;
+//     height: 25px !important;
+// }
+.uppy-Container{
+    .uppy-ProgressBar {
+        max-width: 585px !important;
+        width: auto !important;
+        margin: 30px auto 0;
+        .uppy-ProgressBar-percentage{
+            // display: block;
+            color: #000000;
+            left: 21%;
+        }
+    }
+}
+body .uppy-ProgressBar-percentage,body .uppy-StatusBar-statusPrimary{
+    font-size: 14px;
+    line-height: 17.71px;
+    color: #353535;
+    font-weight: 500;
+
+}
+// body .uppy-StatusBar-statusPrimary{
+//     padding-left: 50px;
+//             &::before{
+//                 content: 'Upload';
+//                 position: absolute;
+//                 left: 17px;
+//                 width: 60px;
+//                 font-size: 14px;
+//                 line-height: 17.71px;
+//                 color: #353535;
+//                 font-weight: 500;
+//             }
+// }
+.uppy-label{
+    margin-left: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background: #FF7330;
+    /* text-align: center; */
+    color: #fff;
+    padding: 5px;
+  }
+@media only screen and (max-width: 552px) {
+    body .uppy-Dashboard-files .uppy-Dashboard-Item{
+        height: auto;
+    }
+    body .uppy-StatusBar .uppy-StatusBar-content{
+        padding-left: 15px;
+    }
+    .uppy-Dashboard-files .uppy-Dashboard-Item .uppy-Dashboard-Item-preview .uppy-u-reset{
+        right: 52px;
+        top: -14px;
+    }
+}
+
+.uppy-Dashboard-Item-actionWrapper{
+    position: relative;
+    ::before{
+        content: '';
+        background-image: url(../../../images/delete.png);
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        position: absolute;
+        visibility: visible;
+        background-repeat: no-repeat;
+    }
+}
+.uppy-StatusBar{
+    height: 55px !important;
+}
+
+
+
+.custom-cancel button.absolute {
+    position: absolute;
+    left: 0;
+    z-index: 1000000;
+    top: 12px;
+    left: 10px;
+    background: #fff;
+    border: 0;
+    padding: 2px 10px;
+    color: #ff6d38;
+}
+
+.custom-cancel {
+    position: relative;
+    max-width: 585px !important;
+    margin: 0 auto;
+}
+.custom-cancel .uppy-Dashboard-inner{
+    margin-top: 0;
+}
+.bottom-btn .uppy-StatusBar-actions{
+    width: auto !important;
+  }
+  .modal.fade {
+    z-index: 100000000;
+  }
+@media(max-width:575px){
+    .custom-cancel button.absolute {
+        top:15px;
+    } 
+}

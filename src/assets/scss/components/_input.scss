@@ -1,0 +1,206 @@
+.form-control {
+  color: $theme-black !important;
+  border: 1px solid $theme-black;
+  border-color: #c5c5c5;
+  height: 78px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 13px 20px;
+  border-radius: 0;
+  line-height: 17.1px;
+  &:focus {
+    border-color: $theme-black !important;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    color: #cccccc;
+  }
+  @media screen and (max-width: 1920px) {
+    height: 58px;
+  }
+}
+
+.custom-placeholder {
+  position: absolute;
+  margin-bottom: 4px;
+  padding-top: 6px;
+}
+
+.custom-placeholder::after {
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  content: attr(data-placeholder);
+  pointer-events: none;
+  font-size: 10px;
+  font-weight: 700;
+  color: #91908E;
+  @media screen and (max-width: 1920px) {
+    top: 9px;
+  }
+  @media screen and (max-width: 500px) {
+    top: 12px;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 306px) {
+    top: 7px;
+    left: 3px;
+    font-size: 9px;
+  }
+}
+
+.custom-placeholder-role::after {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  content: attr(data-placeholder);
+  pointer-events: none;
+  font-size: 10px;
+  font-weight: 700;
+  color: #91908E;
+  @media screen and (max-width: 1920px) {
+    top: 8px;
+  }
+  @media screen and (max-width: 500px) {
+    top: 10px;
+  }
+  @media screen and (max-width: 320px) {
+    top: 1px;
+  }
+  @media screen and (max-width: 306px) {
+    top: 5px;
+    left: 2px;
+  }
+}
+
+
+/* Custom Phone Number Input Format Styles */
+.phone-country-code-input {
+  .form-control {
+    border: 1px solid $theme-black !important;
+    border-radius: 5px !important;
+    height: 40px !important;
+    width: 100% !important;
+    font-size: inherit !important;
+    color: inherit !important;
+  }
+
+  .flag-dropdown {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-right: none !important;
+    margin-bottom: 10px;
+
+    .flag {
+      border-radius: 50% !important;
+    }
+  }
+
+  .selected-flag {
+    &:hover {
+      background-color: inherit !important;
+    }
+  }
+}
+
+.password-visibility {
+  position: absolute;
+  top: 7px;
+  right: 22px;
+}
+
+.error {
+  border: 1px solid $theme-error !important;
+}
+
+.invalid {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 12px;
+  color: $theme-error;
+  font-family: open-sans-bold, sans-serif;
+}
+
+.prepend {
+  height: 40px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid #33373A;
+  border-right: none;
+}
+
+.append {
+  height: 40px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #33373A;
+  border-left: none;
+}
+
+.border-left-radius-0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.border-right-radius-0 {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.border-left-none {
+  border-left: none;
+}
+
+.border-right-none {
+  border-right: none;
+}
+
+input {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.71px;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="string"] {
+  padding: 13px 20px;
+  border-radius: 0;
+  color: #353535 !important;
+
+  caret-color:#353535 !important;
+}
+
+.marginb-20 {
+  margin-bottom: 20px;
+}
+
+
+.dash-select{
+  &::after{
+    left: 20px;
+    top: 17px;
+    font-size: 10px;
+    @media screen and (max-width: 1920px) {
+      top: 4px;
+    }
+    @media screen and (max-width: 500px) {
+      top: 12px;
+    }
+    @media screen and (max-width: 320px) {
+      top: 9px;
+    }
+    @media screen and (max-width: 306px) {
+      top: 7px;
+      left: 3px;
+      font-size: 9px;
+    }
+  }
+  
+}

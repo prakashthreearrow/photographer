@@ -1,0 +1,412 @@
+.dashboard-job {
+    
+        .dashboard-background{
+            padding-bottom: 0 ;
+        }
+   
+    .dashboard-sec {
+        height: auto !important;
+    }
+
+    .footer {
+        padding: 40px 0 35px !important;
+        background-color: #EEECE8;
+        max-width: 100%;
+    }
+}
+
+.place-order {
+    h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: #353535;
+        margin-bottom: 12px;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    p {
+        font-family: 'Cabin', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #353535;
+        margin: 0;
+    }
+
+    .orange-btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        color: #FFFFFF !important;
+        background-color: #FF7330;
+        padding: 24px 50px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 991px) {
+        margin-top: 1.5rem;
+    }
+}
+
+.job-card {
+    margin-bottom: 40px;
+    .job {
+        width: 49%;
+        padding: 40px 50px 30px;
+        .job-number {
+            h1 {
+                font-size: 70px;
+                line-height: 49px;
+                margin-bottom: 20px;
+                font-family: 'Cabin', sans-serif;
+                font-weight: 500;
+                color: #353535;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: 500;
+                margin: 0;
+                font-family: 'Cabin', sans-serif;
+                color: #353535;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .job {
+            width: 47%;
+            padding: 45px 12px !important;
+        }
+    }
+}
+.job-card-list{
+    .form-section{
+        margin-bottom: 45px;
+    }
+}
+.team-name {
+    .team-title {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .name-lable {
+        .name-btn {
+            margin-top: 37px;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            font-family: 'Cabin', sans-serif;
+            li {
+                margin-right: 10px;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    background-color: #D9D9D9;
+                    font-size: 10px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    padding: 10px 12px;
+                    border-radius: 30px;
+                    display: inline-block;
+                    color: #353535;
+                    font-family: 'Cabin', sans-serif;
+                    span {
+                        margin-left: 6px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            @media only screen and (max-width: 412px) {
+                display: block;
+
+                li {
+                    width: 100%;
+                    margin-bottom: 12px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .name-lable {
+        p {
+            color: #91908E;
+            font-size: 10px;
+            line-height: 12px;
+            font-weight: 700;
+            text-align: left;
+            font-family: 'Cabin', sans-serif;
+            @media only screen and (max-width: 412px) {
+                text-align: center;
+            }
+        }
+    }
+
+    .support-number {
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 8px;
+
+            .flag {
+                display: flex;
+                align-items: baseline;
+
+                p {
+                    color: #91908E;
+                    font-size: 10px;
+                    line-height: 12px;
+                    font-weight: 700;
+                    margin: 0;
+                    margin-left: 6px;
+                    text-transform: capitalize;
+                }
+            }
+
+            a {
+                color: #353535;
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: 500;
+                text-decoration: none;
+                font-family: 'Cabin', sans-serif;
+            }
+        }
+
+        .support-mail {
+            a {
+                color: #353535;
+                font-size: 10px;
+                line-height: 12px;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: .65px;
+            }
+        }
+    }
+}
+
+.visual-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    // min-height: 80%;
+    @media only screen and (max-width: 1199px) {
+        min-height: auto;
+    }
+
+    .visual-section-inner {
+        text-align: center;
+        max-width: 286px;
+        a {
+            margin-top: 26px !important;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background-color: #FF7330;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 14.5px;
+            font-weight: 700;
+            color: #fff;
+            padding: 30px;
+            margin-top: 18px;
+            font-family: 'Cabin', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.left-card {
+    .cname {
+        color: #353535;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 700;
+        margin-top: 8px;
+        font-family: 'Cabin', sans-serif;
+    }
+}
+
+// -----------------------------------
+
+.spinner-color{
+    border-color: #FF7330;
+    border-right-color: transparent !important;
+}
+.green-border {
+    border-left: 5px solid #81AE00;
+}
+
+.orange-border {
+    border-left: 5px solid #FF7330;
+}
+.toggle-menu-one{
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: 9px 14px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    ul{
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+}
+
+.name-lable{
+    h2 {
+        font-size: 48px;
+        line-height: 58px;
+        font-family: 'Cabin';
+        letter-spacing: 1.65px;
+        font-weight: 700;
+        margin: 0;
+        color: #353535;
+    }
+}
+.pro-img{
+    img,span {
+        height: 89px;
+        width: 89px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        background-color: #ff7330;
+        margin: auto;
+        font-size: 30px;
+    }
+}
+.job-dashboard-table-raw{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.spin-parent{
+    position: absolute;
+    height: 255px;
+    width: 100%;
+    .spin-child{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        .text-dark{
+            color: #ff7330 !important;
+        }
+    }
+}
+
+.arrow-two{
+    svg{
+        height: 18px;
+    }
+    
+}
+.arrow-down-two{
+    svg{
+        transform: rotate(180deg);
+    }
+}
+.btn-tab{
+    background: #FF7330 !important;
+    color: #fff !important;
+}
+
+.contact-info{
+    ul{
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}
+body .dashboard-calender{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .table-width{
+        padding-right: 0 !important;
+    }
+    .table-left{
+        width: 70%;
+        @media only screen and (max-width: 1199px) {
+            width: 100%;
+            margin-bottom: 28px;
+        }
+    }
+    .calender-right{
+        width: 28%;
+        .intro-card-right{
+            padding: 16px 15px 10px;
+            margin-bottom: 0;
+            .calender-title{
+                font-size: 22px;
+                line-height: 23px;
+            }
+        }
+        @media only screen and (max-width: 1199px) {
+            width: 100%;
+        }
+    }
+    .table-responsive{
+        height: 400px;
+    }
+    .date-picker-custom .react-datepicker__week .react-datepicker__day, .date-picker-custom .react-datepicker__week .react-datepicker__day-name, .date-picker-custom .react-datepicker__day-names .react-datepicker__day, .date-picker-custom .react-datepicker__day-names .react-datepicker__day-name{
+        font-size: 16px;
+    }
+    .date-picker-custom .react-datepicker__week .react-datepicker__day{
+        margin: 1%;
+    }
+    .date-picker-custom .react-datepicker__current-month {
+        font-size: 18px;
+        margin: 8px 0 15px;
+    }
+    .date-picker-custom .react-datepicker__navigation {
+        top: 8px;
+    }
+    
+}

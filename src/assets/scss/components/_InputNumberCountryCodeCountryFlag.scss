@@ -1,0 +1,66 @@
+.tel-input-two{
+  .PhoneInput{
+    position: relative;
+  }
+  .PhoneInputCountry{
+    position: absolute;
+    top: 26px;
+    margin: 0;
+    left: 20px;
+    width: 43px;
+    &::after {
+      content: ' ';
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-image: url('../../images/select-arrow-black.png');
+      right: 0;
+      top: 3px;
+      background-size: contain;
+    }
+    .PhoneInputCountryIcon{
+      height: 24px;
+      width: 24px;
+      border: 0;
+      box-shadow: none;
+      background-color: transparent;
+    }
+    .PhoneInputCountrySelectArrow{
+      display: none;
+    }
+  }
+  input.PhoneInputInput{
+    width: 100%;
+    padding-left: 64px;
+    flex: unset;
+    min-width: auto;
+    height: 78px;
+    border-radius: 0;
+    border:1px solid #c5c5c5;
+    margin: 0;
+    outline: none;
+    &:focus {
+      border-color: #33373A;
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+  @media only screen and (max-width: 1920px) {
+    input.PhoneInputInput{
+      height: 58px;
+    }
+    .PhoneInputCountry {
+      top: 17px;
+    }
+    
+  }
+}
+
+.tel-input-two{
+  &:after {
+    top: 9px;
+    @media only screen and (max-width: 1920px) {
+      top: 3px;
+    }
+  }
+}

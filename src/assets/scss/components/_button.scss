@@ -1,0 +1,86 @@
+.btn-common {
+    background: $color-orange;
+    border: 1px solid $color-orange;
+    color: $White-Color;
+    padding: 10px 40px;
+    height: 80px;
+    // border: none;
+    font-size: 12px;
+    line-height: 14.5px;
+    letter-spacing: .65px;
+    // box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    outline: none;
+    &:hover{
+      color: $color-orange;
+      background: $White-Color;
+    }
+    @media screen and (max-width: 1024px){
+      min-width: unset;
+      padding: 10px 30px;
+    }
+    @media screen and (max-width: 576px){
+      padding: 10px 15px;
+    }
+  }
+  
+  .nav-button {
+    background: $White-Color;
+    color: $Black-Color;
+    // padding: 10px 70px;
+    border: 2px solid $theme-light-red;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 10px;
+    outline: none;
+    @media screen and (max-width: 2350px){
+      padding: 10px 55px;
+    }
+    @media screen and (max-width: 2050px){
+      padding: 10px 45px;
+    }
+    @media screen and (max-width: 1900px){
+      padding: 10px 35px;
+    }
+    @media screen and (max-width: 1800px){
+      padding: 10px 30px;
+    }
+    @media screen and (max-width: 1700px){
+      padding: 10px 25px;
+    }
+    @media screen and (max-width: 1600px){
+      padding: 10px 20px;
+    }
+    @media screen and (max-width: 1450px){
+      padding: 10px 15px;
+    }
+  }
+  
+  .nav-button-active {
+    background: $theme-light-red;
+    color: $White-Color;
+  }
+  
+  .nav-button-disable {
+    background: $Disable-gray !important;
+    border: 1px solid $theme-light-red !important;
+    color: $Black-Color !important;
+    outline: none !important;
+  }
+  
+  .breadcrumb-button {
+    padding: 3px 10px;
+    background: $theme-light-red;
+    color: $White-Color;
+    border: 2px solid $theme-light-red;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  .outline-btn{
+    border: 2px solid $theme-light-red;
+    background: $White-Color;
+    color: $Black-Color;
+  
+  }

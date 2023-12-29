@@ -1,0 +1,51 @@
+.tel-input {
+  .input-group-prepend button
+  {
+    
+      padding-top: 19px !important;
+      padding-bottom: 0 !important;
+      border-radius: 0!important;
+      border-color: #c5c5c5;
+      background: white;
+      box-shadow: none;
+  }
+  .btn-outline-secondary {
+    color: black !important;
+    box-shadow: none;
+    
+  }
+  .remove-token-container{
+    top: 16px;
+  }
+  
+
+}
+
+.dropdown-toggle::after{
+  vertical-align: middle;
+}
+.custom-placeholder2 {
+  position: relative;
+  margin-bottom: 4px;
+}
+.custom-placeholder2::after {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  content: attr(data-placeholder);
+  pointer-events: none;
+  font-size: 10px;
+  font-weight: 700;
+  color: #91908E;
+  z-index: 999;
+  @media screen and (max-width: 500px) {
+    font-size: 10px;
+    top: 15px;
+  }
+  @media screen and (max-width: 306px) {
+    top: 7px;
+    left: 2px;
+    // font-size: 9px;
+  }
+}
+

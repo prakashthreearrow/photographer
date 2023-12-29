@@ -1,0 +1,180 @@
+.gallery-one.portfolioContainer{
+  margin: 0 -10px;
+  /*display: flex;*/
+  // max-height: 500px;
+    // overflow-y: auto;
+    /*min-width: 100%;*/
+    padding: 0 10px;
+    min-height: 434px;
+}
+.gallery-one.portfolioContainer .media-one:hover::after{
+  display: none;
+}
+.gallery-one.portfolioContainer .photography{
+    // margin: 10px;
+    width: 100%;     
+    // display: inline-block;
+    height: 100%;
+}
+.gallery-one.portfolioContainer .media-one{
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  padding: 4px;  
+  margin: 10px !important;
+}
+.gallery-one.portfolioContainer  .media-one:hover{
+  border-color: #FF7330;
+}
+.gallery-one.portfolioContainer .photography img{
+  object-fit: cover;
+}
+.gallery-one.portfolioContainer .photography img,.gallery-one.portfolioContainer .photography video{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    min-height: 100% !important;
+}
+div.pp_pic_holder{
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+#media-tab-pane  .upload-media-cards{
+  height: 514px !important;
+  
+}
+// #media-tab-pane .upload-media-cards .media-one{
+ 
+//   height: auto !important;
+// }
+#media-tab-pane .upload-media-cards.without-drop-flex{
+  overflow-y: auto;
+}
+div.pp_overlay{
+  width: 100% !important;
+}
+div.pp_default .pp_expand{
+  display: none !important;
+}
+#media-tab-pane .upload-media-cards-one-btn{
+  position: sticky;
+  width: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto;
+  max-width: 230px;
+}
+.pp_fade:after{
+  position: absolute;
+    content: " ";
+    width: 180px;
+    height: 60px;
+    background-image: url('./../../../images/widu-photo-logo.png');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+}
+.pp_fade:hover::after{
+  display: none;
+}
+
+@media(max-width:1280px){
+  .gallery-one.portfolioContainer .media-one{
+    width: 23% !important;
+  }
+}
+@media(max-width:1199px){
+  .gallery-one.portfolioContainer .media-one{
+    width: 31% !important;
+  }
+}
+@media(max-width:991px){
+  .gallery-one.portfolioContainer .media-one{
+    width: 45% !important;
+  }
+}
+@media(max-width:767px){
+  .gallery-one.portfolioContainer .media-one{
+    width: 100% !important;
+  }
+}
+.card-image {
+    display: block;
+    min-height: 20rem;
+    background: #fff center center no-repeat;
+    background-size: cover;
+    filter: blur(3px); 
+}
+
+.card-image > img {
+    display: block;
+    opacity: 0;
+}
+
+.card-image.is-loaded {
+    filter: none; 
+    transition: filter 1s;
+}
+.card-image-vid > video{
+    display: block;
+    min-height: 20rem;
+    background: #fff center center no-repeat;
+    background-size: cover;
+}
+
+p.pp_description {
+  display: none !important;
+}
+
+#media-tab-pane {
+  .job-detail-left{
+    .download-btn.download-btn-height{
+      position: sticky;
+      left: 50%;
+      bottom: 5px;
+  }
+  a{
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    display: inline-block;
+  }
+  }
+}
+
+.gallery-one.portfolioContainer .photography.media-svg-icon a {
+  background: #ffffff;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+.gallery-one.portfolioContainer .photography.media-svg-icon a:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000033;
+  content: '';
+}
+.gallery-one.portfolioContainer .photography.media-svg-icon a svg g, .gallery-one.portfolioContainer .photography.media-svg-icon a svg {
+  fill: #ff7330;
+}
+.gallery-one.portfolioContainer .photography.media-svg-icon a svg {
+  width: 40%;
+  z-index: 3;
+  box-shadow: 0px 0px 8px #919191;
+  height: 40%;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+
+.gallery-one.portfolioContainer .media-one.media-image a {
+  height: 100%;
+  width: 100%;
+}

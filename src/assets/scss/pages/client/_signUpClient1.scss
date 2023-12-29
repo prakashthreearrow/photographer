@@ -1,0 +1,82 @@
+.signupnext-padding .form-group.row.my-2 {
+    margin-top: 0px !important;
+    margin-bottom: 17px !important;
+}
+.signupnext-padding .form-group .custom-placeholder {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+.signupnext-padding .form-group .custom-placeholder2.tel-input {
+    margin-bottom: 0;
+}
+.signUpNext-main .container .signUpNext-detail .signupnext-padding {
+    margin-top: 30px;
+}
+.signupnext-padding .form-group.error-position {
+    justify-content: center;
+    margin: 20px 0;
+}
+.signupnext-padding .form-group.error-position label {
+    color: #91908E;
+    text-align: left;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.signupnext-padding .custom-placeholder::after,.signupnext-padding .custom-placeholder2::after {
+    top: 10px;
+    left: 33px;
+}
+.error-left{
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1920px){
+    .signupnext-padding .custom-placeholder::after,.signupnext-padding .custom-placeholder2::after {
+        top: 4px;
+        left: 33px;
+    }
+}
+@media screen and (max-width:1199px){
+    .signUpNext-main .container .signUpNext-detail div > p {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:991px){
+    input[type='checkbox'] {
+        padding: 8.12px 10.87px;
+     }
+}
+@media screen and (max-width:500px){
+    .signupnext-padding .custom-placeholder::after, .signupnext-padding .custom-placeholder2::after{
+        top:7px;
+        
+    }
+    .signupnext-padding .custom-placeholder-role::after{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:306px){
+    // .signupnext-padding .custom-placeholder-role::after{
+    //     top:10px;
+    // }
+    .signupnext-padding .custom-placeholder::after, .signupnext-padding .custom-placeholder2::after {
+        top: 2px;
+        left: 16px;
+    }
+}
+
+
+.signupnext-padding .form-group.d-flex.text-white.position-relative.error-position.error-left{
+    margin-bottom: 30px;
+    .invalid{
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+        bottom:-15px ;
+    }
+}

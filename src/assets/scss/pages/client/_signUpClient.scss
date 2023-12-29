@@ -1,0 +1,121 @@
+.signUp-detail .signuppage-form .form-group h5 {
+    color: #000;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2>label {
+    height: 20px;
+    width: auto;
+    color: #353535;
+    padding: 0 !important;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    font-family: Cabin;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2 > label > input {
+    visibility: hidden;
+    margin: 0;
+    width: 0;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2>label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    margin: -1px 10px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #FF7330;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2>label span .tick_icon {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2>label>input:checked + span{
+    background-color: #FF7330;
+}
+.signUp-detail .signuppage-form .form-group .options.py-2>label>input:checked + span .tick_icon{
+    opacity: 1;
+}
+.signUp-detail .signuppage-form .form-group .flex-sm-row {
+    flex-direction: column !important;
+    margin: 20px 0;
+    padding: 0px !important;
+}
+.signUp-client-detail .d-flex.align-items-baseline {
+    text-align: center;
+}
+.signUp-client-detail h6.d-flex + h5 {
+    padding: 0 15%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.signUp-client-detail .d-flex.align-items-baseline p {
+    margin-bottom: 0 !important;
+}
+.signUp-client-detail h6 {
+    padding: 0 15px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.signUp-client-detail .dropdown-menu li h6{text-align: left;}
+@media screen and (max-width:425px){
+    .signUp-client-detail h6.d-flex + h5{
+        padding:0 20px;
+    }
+    .signUp-detail .signuppage-form .form-group .flex-sm-row {
+        text-align: left;
+    }
+}
+.z-high{
+    z-index: 9991;
+}
+.z-highh{
+    z-index: 99911;
+}
+.custom-top{
+    &::after{
+        top: 10px;
+        left: 32px;
+        @media screen and (max-width:1920px){
+            top: 5px;
+        }
+        @media screen and (max-width:306px){
+            top: 3px;
+            left: 14px;
+            font-size: 9px;
+        }
+    }
+}
+// .signUp-detail .form-group.pt-cust{
+//     padding-top: 7px !important; 
+//     padding-bottom: 9px !important;
+// }
+// .signUp-detail .form-group.pt-cust1{
+//     padding-top: 0 !important; 
+//     padding-bottom: 9px !important;
+// }
+.signuppage-form.signupnext-padding{
+    .custom-placeholder::after{
+        left: 20px;
+        @media screen and (max-width:306px){
+            top: 3px;
+            left: 2px;
+            font-size: 9px;
+        }
+    }
+}
+.signUp-detail.signUp-client-detail.py-4.animated.fadeIn > form > h5 {
+    padding: 0 15%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,294 @@
+.signUpNext4-main {
+  background-color: #EEECE8;
+  padding: 40px 40px 20px;
+.set_width{
+  line-height: 16px !important;
+   }
+  .container {
+    max-width: 1728px;
+    align-self: start;
+
+    .signupnext4_header_logo {
+      position: absolute;
+      left: 45.31% !important;
+      top: 3.38%;
+      z-index: 1;
+    }
+
+    .signUpNext4-detail {
+      background-color: #FAF9F9;
+      backdrop-filter: blur(10px);
+      /* Note: backdrop-filter has minimal browser support */
+      border-radius: 12px;
+      padding: 65px;
+      width: 100%;
+      max-width: 1196px !important;
+      margin: 4% auto 14%;
+      min-height: 100vh;
+      .es-width{
+        width: 100% !important;
+      }
+      .position-relative{
+        img{
+          position: absolute;
+          left: 0;
+          top: 10px;
+          cursor: pointer;
+          @media screen and (max-width: 480px) {
+            left: -13px;
+            top: 3px;
+          }
+          @media screen and (max-width: 320px) {
+            top: 8px;
+          }
+        }
+      }
+      @media screen and (max-width: 768px) {
+        padding: 25px;
+      }
+
+      @media screen and (max-width: 624px) {
+        padding: 20px;
+      }
+
+      .margin-right-35 {
+        margin-right: 35px;
+        color: #353535;
+        font-size: 14px;
+      }
+
+      .options {
+        flex-wrap: wrap;
+
+        input[type='radio'] {
+          // height: 25px;
+          // width: 25px;
+          // min-width: 15px;
+          // min-height: 15px;
+          // margin-top: 2px;
+          margin-right: 0;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -o-appearance: none;
+          appearance: none;
+          border: 1px solid transparent;
+          border-radius: 50%;
+          outline: none;
+          transition-duration: 0.3s;
+          background-color: $color-orange;
+          cursor: pointer;
+        }
+
+        input[type='radio']:checked {
+          background-color: $color-orange;
+          position: relative;
+        }
+
+        input[type='radio']:checked::after {
+          position: absolute;
+          top: 6px;
+          left: 6px;
+          content: '';
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          -moz-border-radius: 7.5px;
+          -webkit-border-radius: 7.5px;
+          border-radius: 7.5px;
+          background-color: #FFFFFF;
+        }
+
+        input[type='radio']:active {
+          border: 1px solid $color-orange;
+        }
+      }
+
+      div>p.text-body {
+        padding-bottom: 1rem !important;
+        width: 100%;
+        max-width: 642px;
+        height: auto;
+        text-align: center;
+        font-weight: 400 !important;
+        line-height: 109.9% !important;
+        margin: 0 auto;
+        font-family: 'Circular Std';
+        font-style: normal;
+        /* or 53px */
+        color: #353535 !important;
+        font-size: 24px;
+
+        @media screen and (max-width: 924px) {
+          font-size: 20px;
+        }
+
+        @media screen and (max-width: 778px) {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .progress_line {
+      width: 100%;
+      position: absolute;
+      height: 3px;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .progress_line::after {
+      content: '';
+      position: absolute;
+      width: 75%;
+      height: 3px;
+      background-color: #FF7330;
+      top: 0;
+      left: 0;
+    }
+
+    .progress_line_white {
+      width: 100%;
+      position: absolute;
+      height: 3px;
+      top: 0;
+      left: 0;
+    }
+
+    .progress_line_white::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 2560px) {
+    img {
+      position: relative;
+      z-index: 1;
+    }
+    
+  }
+  @media screen and (max-width: 425px) {
+    padding: 40px 22px 0;
+
+    .signupnext4_header_logo {
+      position: absolute;
+      left: 40.31% !important;
+      top: 3.38%;
+      z-index: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .signUpNext4-button-text-font {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+
+    @media screen and (max-width: 768px) {
+      max-width: 80%;
+    }
+
+    @media screen and (max-width: 624px) {
+      max-width: 90%;
+    }
+  }
+
+  .signUpNext4-button {
+    width: 100%;
+    max-width: 434px !important;
+    height: 78px !important;
+    text-transform: uppercase;
+  }
+
+  .set_width {
+    max-width: 500px;
+    font-size: 12px;
+    line-height: 13px;
+
+    padding-top: 10px;
+    padding-left: 33px;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #FF7330;
+    border-radius: 50%;
+    background: #FF7330;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.min-width-120px{
+  min-width: 120px;
+}
